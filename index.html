@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Lukasz Budyn</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <link rel="stylesheet" href="stylesheets/bootstrap.min.css" media="screen">
-      <link rel="stylesheet" href="stylesheets/custom.min.css">
-      <script>
-
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lukasz Budyn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/custom.min.css">
+    <script>
        var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-23019901-1']);
         _gaq.push(['_setDomainName', "bootswatch.com"]);
@@ -20,82 +19,129 @@
          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
        })();
+    </script>
+  </head>
 
-      </script>
+  <body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">LukaszBudyn.pl</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#technologies">Technologies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
 
-    </head>
+          </ul>
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/lukasz-budyn" target="_blank">Linkedin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Lukasz-Bdn" target="_blank">GitHub</a>
+            </li>
+          </ul>
 
-<body>
-<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-  <div class="container">
-    <a href="index.html" class="navbar-brand">LukaszBudyn.pl</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#about-me">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-
-      </ul>
-      <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/lukasz-budyn" target="_blank">Linkedin</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/Lukasz-Bdn" target="_blank">GitHub</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="page-header" id="banner about-me">
-    <div class="row">
-      <div class="col-lg-8 col-md-7 col-sm-6">
-        <h1>About me</h1>
-        <p class="lead">Hi, my name is Lukasz.</p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="container">
-  <div class="page-header" id="banner projects">
-    <div class="row">
-      <div class="col-lg-8 col-md-7 col-sm-6">
-        <h1>My projects</h1>
-        <p class="lead">Section for my projects</p>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="page-header">
+            <h1 id="typography">About me</h1>
+          </div>
+        </div>
+        <div>
+          <p class="lead">Hi, my name is Lukasz. I spent last seven years looking
+            for oil and gas beneath the Ocean bottom. Now I decided it is time to
+            look for something new and inspiring. I always liked learning new
+            things and implmenting them in real life situations as soon as possible.
+            I decided to learn software development and Java was my language of choice.
+            It has a great potential to serve as a driver behind both web and desktop
+            applications.
+          </p>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-</div>
 
-<div class="container">
-  <div class="page-header" id="banner projects">
-    <div class="row">
-      <div class="col-lg-8 col-md-7 col-sm-6">
-        <h1>Contact details</h1>
-        <p class="lead">If you would like to contact me, please use one of the following options</p>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="page-header">
+            <h1 id="my-projects">My projects</h1>
+          </div>
+          <div class="jumbotron">
+              <h1 class="display-3">Spare Part Manager</h1>
+              <p class="lead">
+                This is the final project I created in the last week of seven week intense Java Course.
+                The idea is to aid in managing spare part movements between a number of central
+                IT hubs and a number of remote locations (for example: Vessels in the middle of the Ocean
+                or Camp in the middle of the Desert).
+              </p>
+              <hr class="my-4">
+              <p>
+                I deployed my application on Heroku, so you can login and have a look.
+                Quick instruction on how to get the most from your experience:
+                <ul>
+                  <li>Use existing credentials I prepared for you:
+                    admin1 (password: admin1), user1 (password: user1), user2 (password: user2).
+                   </li>
+                   <li>
+                     You can also register as new user, but your account will be
+                     disabled until it is approved by admin.
+                   </li>
+                   <li>Database is already preloaded with some data, it is fully functional
+                     , so you can add items as well.
+                   </li>
+                   <li>
+                     Try loggin in as admin and regular user: their views are quite different.
+                   </li>
+                   <li>
+                     Admin can see users, locations, manufacturers and spare part catalogs. Also spare parts in
+                     all locations and all shipments are visible.
+                   </li>
+                   <li>
+                     Regular user is asigned to a particular location and can only see
+                     items in this location plus all shipments to/from his location.
+                   </li>
+                   <li>
+                     Main part of the website is the 'Spare Part' section. various
+                     groups of parts (gry buttons) have different actions available.
+                     Play around sending parts to various locations, receiving
+                     them, placing in the system and returning to global hubs.
+                   </li>
+                   <li>
+                     In 'Spare Part' menu .
+                   </li>
+                </ul>
+            </p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="https://spare-part-mgr.herokuapp.com/"
+                role="button">Visit Spare Part Manager!</a>
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/custom.js"></script>
-</body>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
