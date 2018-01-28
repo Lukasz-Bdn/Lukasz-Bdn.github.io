@@ -7,19 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="stylesheets/custom.min.css">
-    <script>
-       var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-23019901-1']);
-        _gaq.push(['_setDomainName', "bootswatch.com"]);
-          _gaq.push(['_setAllowLinker', true]);
-        _gaq.push(['_trackPageview']);
-
-       (function() {
-         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-       })();
-    </script>
+    <link rel="stylesheet" href="stylesheets/additional.css">
   </head>
 
   <body>
@@ -35,7 +23,7 @@
               <a class="nav-link" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#my-projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#technologies">Technologies</a>
@@ -52,6 +40,9 @@
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/Lukasz-Bdn" target="_blank">GitHub</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:lukasz-budyn@wp.pl">lukasz-budyn@wp.pl</a>
+            </li>
           </ul>
 
         </div>
@@ -60,33 +51,39 @@
 
     <div class="container">
 
-      <div class="row">
+      <div class="row" id="about-me">
         <div class="col-lg-12">
           <div class="page-header">
-            <h1 id="typography">About me</h1>
+            <h2 id="typography">About me</h2>
           </div>
         </div>
         <div>
           <p class="lead">Hi, my name is Lukasz. I spent last seven years looking
-            for oil and gas beneath the Ocean bottom. Now I decided it is time to
-            look for something new and inspiring. I always liked learning new
-            things and implmenting them in real life situations as soon as possible.
-            I decided to learn software development and Java was my language of choice.
+            for oil and gas beneath the Ocean bottom. Recently I suffered an injury that
+            prevented me from doing my job for few months. I always liked learning new
+            things, so I decided to learn software development. Java was my language of choice.
             It has a great potential to serve as a driver behind both web and desktop
-            applications.
+            applications. I recently completed an intensive 7 week Java Web Development
+            course at Coders Lab.
+            It proved to be a good choice and now I continue to learn on my own,
+            mainly through different small projects. I am sure there is still a lot
+            of things I need to learn before becoming a real developer, but hopefully
+            improvements are visible from project to project!
           </p>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="my-projects">
         <div class="col-lg-12">
           <div class="page-header">
-            <h1 id="my-projects">My projects</h1>
+            <h2 >My projects</h2>
           </div>
+          <br/>
           <div class="jumbotron">
-              <h1 class="display-3">Spare Part Manager</h1>
+              <h3 class="display-3">Spare Part Manager</h3>
+              <h5 class="display-5">December 2017 - January 2018</h5>
               <p class="lead">
-                This is the final project I created in the last week of seven week intense Java Course.
+                This is the final project I created at the end of seven week intense Java Course.
                 The idea is to aid in managing spare part movements between a number of central
                 IT hubs and a number of remote locations (for example: Vessels in the middle of the Ocean
                 or Camp in the middle of the Desert).
@@ -129,14 +126,161 @@
                 </ul>
             </p>
             <p class="lead">
-              <a class="btn btn-primary btn-lg" href="https://spare-part-mgr.herokuapp.com/"
-                role="button">Visit Spare Part Manager!</a>
+              <a class="btn btn-danger btn-lg" href="https://spare-part-mgr.herokuapp.com/"
+                role="button" target="_blank">Visit Spare Part Manager!</a>
+                <a class="btn btn-info btn-lg" href="https://github.com/Lukasz-Bdn/SparePartManager"
+                  role="button" target="_blank">See code on GitHub!</a>
             </p>
           </div>
         </div>
       </div>
 
+      <div class="row" id="technologies">
+        <div class="col-lg-12">
+          <div class="page-header">
+            <h2 id="typography">Technologies and tools I am familiar with:</h2>
+          </div>
+        </div>
+      </div>
+      <br/>
+
+      <div class="row">
+        <div class="col-lg-4">
+
+          <div class="card border-success mb-3" style="max-width: 20rem;">
+            <div class="card-header">Technology</div>
+            <div class="card-body text-success">
+              <h4 class="card-title">Java</h4>
+              <p class="card-text">General knowledge of Java Programming, including:
+              classes, methods, object, loops, conditional statements etc.</p>
+            </div>
+          </div>
+
+          <div class="card border-success mb-3" style="max-width: 20rem;">
+            <div class="card-header">Technology</div>
+            <div class="card-body text-success">
+              <h4 class="card-title">MySQL</h4>
+              <p class="card-text">One of the most popular and commonly used relational database.
+              </p>
+            </div>
+          </div>
+
+          <div class="card border-warning mb-3" style="max-width: 20rem;">
+            <div class="card-header">Tool</div>
+            <div class="card-body text-warning">
+              <h4 class="card-title">Git</h4>
+              <p class="card-text">Most popular version control system. Feel free to visit my
+              GitHub account (link in contact section).</p>
+            </div>
+          </div>
+
+          <div class="card border-info mb-3" style="max-width: 20rem;">
+            <div class="card-header">Concept</div>
+            <div class="card-body text-info">
+              <h4 class="card-title">Design Patterns</h4>
+              <p class="card-text">Ways of solving common software design problems.</p>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="col-lg-4">
+
+          <div class="card border-success mb-3" style="max-width: 20rem;">
+            <div class="card-header">Technology</div>
+            <div class="card-body text-success">
+              <h4 class="card-title">Spring</h4>
+              <p class="card-text">Most popular Java framework for web development.
+              I used Spring MVC, Security and Boot in my projects.</p>
+            </div>
+          </div>
+
+
+          <div class="card border-warning mb-3" style="max-width: 20rem;">
+            <div class="card-header">Tool</div>
+            <div class="card-body text-warning">
+              <h4 class="card-title">Maven</h4>
+              <p class="card-text">Software build automation tool to manage dependencies
+              and project building.</p>
+            </div>
+          </div>
+
+          <div class="card border-info mb-3" style="max-width: 20rem;">
+            <div class="card-header">Concept</div>
+            <div class="card-body text-info">
+              <h4 class="card-title">Object Oriented Programming</h4>
+              <p class="card-text">Classes, objects, inheritance etc.</p>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="col-lg-4">
+
+          <div class="card border-success mb-3" style="max-width: 20rem;">
+            <div class="card-header">Technology</div>
+            <div class="card-body text-success">
+              <h4 class="card-title">Hibernate ORM</h4>
+              <p class="card-text">Most popular Java framework for working with databases.
+              Provides easy object-relational mapping (ORM) and works great with Java Object
+              Oriented Programming concept.</p>
+            </div>
+          </div>
+
+          <div class="card border-warning mb-3" style="max-width: 20rem;">
+            <div class="card-header">Tool</div>
+            <div class="card-body text-warning">
+              <h4 class="card-title">Eclipse</h4>
+              <p class="card-text">Integrated development environment. Currently I
+              work mainly in Spring Tool Suite.</p>
+            </div>
+          </div>
+
+          <div class="card border-info mb-3" style="max-width: 20rem;">
+            <div class="card-header">Concept</div>
+            <div class="card-body text-info">
+              <h4 class="card-title">Clean Code</h4>
+              <p class="card-text">I put effort into following rules outlined in
+                "Clean Code" by Robert Martin. I know there is still a lot of work ahead, but I
+                do my best to keep my code SOLID and DRY!</p>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+      <div class="row" id="contact">
+        <div class="col-lg-12">
+          <div class="page-header">
+            <h2 id="typography">Contact details</h2>
+          </div>
+        </div>
+        <br/>
+        <div>
+          <h3 class="lead">If you find my work interesting feel free to contact me at:
+          </h3><br/>
+          <a class="btn btn-primary btn-lg" href="http://www.linkedin.com/in/lukasz-budyn"
+            role="button" target="_blank">My Linkedin</a>
+            <a class="btn btn-info btn-lg" href="https://github.com/Lukasz-Bdn/"
+              role="button" target="_blank">My GitHub</a>
+              <a class="btn btn-success btn-lg" href="mailto:lukasz-budyn@wp.pl"
+                role="button">lukasz-budyn@wp.pl</a>
+        </div>
+      </div>
+
     </div>
+    <footer class="footer bg-dark">
+      <div class="container">
+        <span class="text-muted">@Lukasz Budyn (2018), lukaszbudyn.pl</span>
+      </div>
+    </footer>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="js/jquery.min.js"></script>
