@@ -14,7 +14,8 @@
     <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
       <div class="container">
         <a href="index.html" class="navbar-brand">LukaszBudyn.pl</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -86,6 +87,44 @@
             <h2 >My projects</h2>
           </div>
           <br/>
+
+          <div class="jumbotron">
+              <h3 class="display-3">WakeMyApp</h3>
+              <h5 class="display-5">January - February 2018</h5>
+              <p class="lead">
+                Heroku is a great platform where anyone can deploy their applications easily and for free.
+                Free deployments have their limitations: if application does not receive any action for 30 minutes
+                it goes to sleep mode. Next user opening the application will "wake it up". This process can take
+                15-45 seconds, depending on the app. This is enough for user to give up and assume application is
+                not working. WakeMyApp provides a simple solution to keep app awake in selected days and
+                selected hours (for example: Monday to Friday, 9am to 6pm).
+              </p>
+              <hr class="my-4">
+              <p>
+                This application is deployed on Heroku and you can check it out:
+                <ul>
+                  <li>Use the register button to create new account or log in, if you are already registered.
+                   </li>
+                   <li>
+                     Navigate to 'Your websites' menu and use 'Add new website button' to specify http/https address
+                     of application and times (days and hours), when you want to keep your app awake.
+                   </li>
+                   <li>WakeMyApp will now send http request to your website every 20 minutes on selected days
+                      and selected hours.
+                   </li>
+                   <li>
+                     You can easily manage your websites: add, remove and edit them as needed.
+                   </li>
+                </ul>
+            </p>
+            <p class="lead">
+              <a class="btn btn-danger btn-lg" href="https://wakemyapp.herokuapp.com/"
+                role="button" target="_blank">Visit WakeMyApp!</a>
+                <a class="btn btn-info btn-lg" href="https://github.com/Lukasz-Bdn/WakeMyApp"
+                  role="button" target="_blank">See code on GitHub!</a>
+            </p>
+          </div>
+
           <div class="jumbotron">
               <h3 class="display-3">Spare Part Manager</h3>
               <h5 class="display-5">December 2017 - January 2018</h5>
@@ -169,7 +208,8 @@
             <div class="card-header">Technology</div>
             <div class="card-body text-success">
               <h4 class="card-title">MySQL</h4>
-              <p class="card-text">One of the most popular and commonly used relational database.
+              <p class="card-text">One of the most popular and commonly used relational database. I usually use
+                MySQL although my apps deplyed on Heroku run on Postgres.
               </p>
             </div>
           </div>
@@ -179,7 +219,7 @@
             <div class="card-body text-warning">
               <h4 class="card-title">Git</h4>
               <p class="card-text">Most popular version control system. Feel free to visit my
-              GitHub account (link in contact section).</p>
+              <a href="https://github.com/Lukasz-Bdn">GitHub account</a>.</p>
             </div>
           </div>
 
@@ -191,7 +231,6 @@
             </div>
           </div>
 
-
         </div>
 
 
@@ -202,7 +241,7 @@
             <div class="card-body text-success">
               <h4 class="card-title">Spring</h4>
               <p class="card-text">Most popular Java framework for web development.
-              I used Spring MVC, Security and Boot in my projects.</p>
+              I used Spring Boot, MVC, Data and Security in most of my projects.</p>
             </div>
           </div>
 
@@ -210,7 +249,8 @@
             <div class="card-header">Technology</div>
             <div class="card-body text-success">
               <h4 class="card-title">Front-end basics</h4>
-              <p class="card-text">I know the basics of HTML, CSS and JavaScript.</p>
+              <p class="card-text">I know the basics of HTML, CSS and JavaScript. I certeinly don't consider myself
+              as front end developer, but I do my best to make my websites look good.</p>
             </div>
           </div>
 
@@ -219,7 +259,7 @@
             <div class="card-body text-warning">
               <h4 class="card-title">Maven</h4>
               <p class="card-text">Software build automation tool to manage dependencies
-              and project building.</p>
+              and project building. I use it in all of my projects.</p>
             </div>
           </div>
 
